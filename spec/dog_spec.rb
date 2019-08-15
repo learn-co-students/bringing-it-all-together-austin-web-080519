@@ -15,6 +15,7 @@ describe "Dog" do
         )
     SQL
     DB[:conn].execute(sql)
+    @@all = []
   end
 
   describe "attributes" do
